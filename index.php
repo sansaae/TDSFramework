@@ -7,7 +7,7 @@
 
 use Tds\Database\QueryBuilder\SqlQueryBuilder;
 
-require_once 'autoload.php';
+require_once 'autoloads.php';
 
 $f = new SqlQueryBuilder();
 var_dump($f->showColumns('world'));
